@@ -5,3 +5,5 @@ urlpatterns = [
     path('',TodoListAndCreate.as_view()),
     path('<int:pk>/', TodoDetailChangeAndDelete.as_view() ),
 ]
+
+
